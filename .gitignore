@@ -1,0 +1,22 @@
+
+## 2. `.gitignore`
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+
+# Face data
+backend/students/
+backend/face_model.yml
+backend/labels.json
+
+# Arduino private config
+esp32/config.h
+
+# IDE
+.vscode/
+.idea/
